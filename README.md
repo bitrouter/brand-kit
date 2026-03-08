@@ -2,42 +2,44 @@
 
 Official brand assets and guidelines for BitRouter.
 
-## Structure
+## Logos
 
-```
-brand-kit/
-├── logos/
-│   ├── svg/            # Vector logos (preferred for web/print)
-│   ├── png/            # Raster logos at various sizes
-│   └── favicon/        # Favicons and app icons
-├── colors/
-│   └── palette.md      # Color definitions and usage
-├── typography/
-│   └── fonts.md        # Font stack and usage guidelines
-├── guidelines/
-│   └── usage.md        # Logo usage dos and don'ts
-└── social/             # Social media assets (banners, profile pics)
-```
+| Variant | SVG | PNG |
+|---------|-----|-----|
+| Black | `logos/svg/bitrouter-black.svg` | `logos/png/bitrouter-black.png` |
+| White | `logos/svg/bitrouter-white.svg` | `logos/png/bitrouter-white.png` |
 
-## Quick Reference
-
-| Asset | Location |
-|-------|----------|
-| Primary logo (SVG) | `logos/svg/bitrouter-logo.svg` |
-| Primary logo (PNG) | `logos/png/bitrouter-logo-256.png` |
-| Favicon | `logos/favicon/favicon.ico` |
-| Color palette | `colors/palette.md` |
-| Usage guidelines | `guidelines/usage.md` |
-
-## Usage
-
-These assets are provided under the MIT License. When using the BitRouter brand:
+### Usage Rules
 
 - Use the SVG versions whenever possible
-- Maintain clear space around the logo
-- Do not alter colors or proportions
-- See `guidelines/usage.md` for full details
+- Maintain the original aspect ratio
+- Ensure sufficient contrast against backgrounds
+- Use the white variant on dark backgrounds
+- Keep minimum clear space equal to the height of the "A" in the logo
+- Do not stretch, distort, rotate, or skew the logo
+- Do not change colors outside the approved palette
+- Do not place on busy or low-contrast backgrounds
+- Do not add effects (shadows, gradients, outlines)
 
-## Replacing Placeholders
+### Minimum Size
 
-All logo files are placeholders. Replace them with your actual brand assets while keeping the same filenames and directory structure.
+| Format | Minimum Width |
+|--------|--------------|
+| Digital | 80px |
+| Print | 25mm |
+
+## Colors
+
+Black (`#000000`) and white (`#FFFFFF`) — matching the logo variants.
+
+## Typography
+
+Default font: [Geist Mono](https://vercel.com/font)
+
+## Attribution
+
+When using BitRouter in third-party materials, include:
+
+```
+Built with BitRouter — https://github.com/BitRouter
+```
